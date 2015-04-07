@@ -1,6 +1,7 @@
 .content {
 	width: 900px;
 	margin: 0 auto;
+	margin-top: 6em;
 }
 
 .content2 {
@@ -10,9 +11,10 @@
 
 header {
 	text-align: center;
+	text-shadow: 2px 2px 2px #000;
 	color: white;
 	background-color: #636363;
-	height: 100px;
+	height: 115px;
 	width: 100%;
 	padding-top: .5em;
 	font-size: 20px;
@@ -20,17 +22,41 @@ header {
 	position: fixed;
 	margin-left: -.5em;
 	margin-top: -.5em;
+	box-shadow: 1px 1px 1px #636363;
 }
 
-.spacer {
-	height: 65px;
+.navbar {
+	width: 300px;
+	margin: 0 auto;
+	word-spacing: 3px;
+	margin-bottom: -50px;
+}
+
+.navbar2 {
+	width: 300px;
+	margin: 0 auto;
+	word-spacing: 3px;
+	margin-bottom: 40px;
+}
+
+li {
+	display: inline-block;
+}
+
+.footer {
+	margin-top: 10em;
+	padding: 2.5em;
+}
 
 }
+
 
 .logo {
 	margin: 0 auto;
 	display:block;
+	margin-bottom: 5px;
 }
+
 
 article {
 	float: left;
@@ -38,21 +64,24 @@ article {
 	border-bottom: 1px solid black;
 	margin-left: 4em;
 	margin-bottom:.3em;
+	margin-top: -15px;
 
 }
+
 
 .headline_photo {
 	float: left;
 	margin-right: 5px;
 }
 
-.mainart {
+.mainart, article {
 	text-align: justify;
 
 }
 h1 {
 	clear: left;
 	text-align: center;
+	text-shadow: 2px 2px 2px #636363;
 }
 
 a {
@@ -69,23 +98,49 @@ a {
 }
 
 .newspic1 {
-	width: 150px;
+	width: 200px;
 	height: 150px;
 	display: block;
 	margin: 0 auto;
+	text-align: justify;
 }
+
+/*Fixed Article to the left*/
 
 .fblink {
 	width: 220px;
 	height: 420px;
-	border: 2px black solid;
-	border-radius: 10%;
+	border: 1px gray solid;
+
+	border-radius: 2px;
 	position: fixed;
 	padding: 1px;
+	margin-left: -.4em;
+	text-align: justify;
+	background-color: white;
+	box-shadow: 2px 2px 2px #636363;
+}
+
+.fblink2 {
+
+	width: 220px;
+	height: 420px;
+	border: 1px gray solid;
+
+	border-radius: 2px;
+	position: fixed;
+	padding: 1px;
+	margin-left: -.4em;
+	text-align: justify;
+	margin-top: -74px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 2px 2px 2px #636363;
 }
 
 .fblink > h3, p, a{
 	text-align: center;
+
 
 }
 
@@ -93,24 +148,50 @@ a {
 	font-size: 4em
 }
 
+/*Simple Footer*/
+
 footer {
+	margin-top: 2em;
 	clear: both;
+	background-color: #636363;
+	text-align: center;
+	color: white;
+	height: 100px;
+	width: 100%;
+	text-shadow: 2px 2px 2px #000;
 }
 
+/*Added margin-top to all links*/
+a {
+	margin-top:5px;
+}
+
+/*Design for all links shadow, color, etc*/
 a:link {
 	text-decoration: none;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	color: #000000;
 
 }
 
 a:hover {
 	text-decoration: underline;
+	color: #636363;
 }
 
+a:visited {
+	color:#636363;
+}
 
+.video {
+	margin: 0 auto;
+	width: 800px;
+	display: block;
+}
 
-
-
-
-
+.videosource {
+	margin-top: -10px;
+}
 
 
